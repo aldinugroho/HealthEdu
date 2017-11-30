@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "675496032536",
+    "firebase_url": "https://androidkopiku.firebaseio.com",
+    "project_id": "androidkopiku",
+    "storage_bucket": "androidkopiku.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675496032536:android:cecf406aa280ddbd",
+        "android_client_info": {
+          "package_name": "com.example.aldi.androidkopiku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675496032536-4dv6p7d3pog2vegfhfmnef1jbfe1io5l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aldi.androidkopiku",
+            "certificate_hash": "aeebd11023c3b364adef79f62590a6db3daba521"
+          }
+        },
+        {
+          "client_id": "675496032536-ap8go8vj5n4c5k1p7c98t5dnj8kuacoq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS_BIjYB1xjo3tax975IWDUwS1fastspA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675496032536-ap8go8vj5n4c5k1p7c98t5dnj8kuacoq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

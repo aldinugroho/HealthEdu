@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/child"
+    tools:context="com.example.aldi.androidkopiku.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout2">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+    
+        <Button
+            android:id="@+id/btnDaftar"
+            android:text="Daftar"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/btnSignUp"
+            app:shadowColor="@android:color/black"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp"
+            app:cornerRadius="4dp"
+            />
+
+        <Button
+            android:id="@+id/btnMasuk"
+            android:text="Masuk"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/btnSignIn"
+            app:shadowColor="@android:color/black"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp"
+            app:cornerRadius="4dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
