@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="@drawable/bg_vertical"
+    android:background="@android:color/white"
     tools:openDrawer="start">
 
     <FrameLayout
@@ -21,7 +21,7 @@
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
         android:layout_alignParentBottom="true"
-        android:background="@color/colorPrimary"
+        android:background="#26C6DA"
         app:itemIconTint="@drawable/nav_item_color_state"
         app:itemTextColor="@drawable/nav_item_color_state"
         android:layout_width="match_parent"
